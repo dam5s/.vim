@@ -1,1 +1,3 @@
 My Vim config
+
+.*rc files should be symlinked from your $HOME, or just copied in it

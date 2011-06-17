@@ -13,6 +13,7 @@ syn on
 set hlsearch
 set nowrap
 set hidden
+set foldmethod=indent
 
 let $ACK_OPTIONS = "--type-set=haml=.haml --type-set=coffee=.coffee"
 

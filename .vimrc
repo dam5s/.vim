@@ -38,6 +38,8 @@ vnoremap kj <Esc>
 map <leader>f <leader>lf
 map <leader>b <leader>lb
 
+cmap w!! %!sudo tee > /dev/null %
+
 filetype on
 filetype plugin indent on
 

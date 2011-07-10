@@ -48,6 +48,7 @@ au BufNewFile,BufRead *.rcss    set filetype=css
 au BufNewFile,BufRead *utotest  set filetype=ruby
 au BufNewFile,BufRead *.api     set filetype=ruby
 au BufNewFile,BufRead *.pill    set filetype=ruby
+au BufNewFile,BufRead *.god     set filetype=ruby
 
 if has("autocmd")
   autocmd FileType make setlocal ts=8 sts=8 sw=8 noexpandtab

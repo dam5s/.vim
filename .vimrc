@@ -57,3 +57,10 @@ if has("autocmd")
   autocmd FileType java setlocal ts=4 sts=4 sw=4 expandtab cindent
   autocmd FileType xml  setlocal ts=4 sts=4 sw=4 expandtab
 endif
+
+abbr desc describe
+abbr subj subject
+abbr ctxt context
+abbr sho should
+abbr func function
+abbr subcription subscription

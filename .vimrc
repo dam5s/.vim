@@ -15,7 +15,7 @@ set nowrap
 set hidden
 set foldmethod=indent
 
-let $ACK_OPTIONS = "--type-set=haml=.haml --type-set=coffee=.coffee"
+let $ACK_OPTIONS = "--type-set=haml=.haml --type-set=coffee=.coffee --type-set=json=.json"
 
 let g:NERDShutUp = 1
 

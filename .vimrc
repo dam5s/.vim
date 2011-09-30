@@ -33,8 +33,6 @@ map <leader>l :set list!<CR>
 map <leader>s :%s/\s\+$//e<CR>
 set listchars=tab:▸\	,eol:¬
 
-inoremap kj <Esc>
-
 map <leader>f <leader>lf
 map <leader>b <leader>lb
 map <leader>j <leader>lj

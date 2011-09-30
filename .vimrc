@@ -37,6 +37,8 @@ inoremap kj <Esc>
 
 map <leader>f <leader>lf
 map <leader>b <leader>lb
+map <leader>j <leader>lj
+map <leader>g <leader>lg
 
 cmap w!! %!sudo tee > /dev/null %
 

@@ -18,7 +18,9 @@ set hidden
 set foldmethod=indent
 
 " Allow usage of option key for shortcuts
-set macmeta
+if has("macmeta")
+  set macmeta
+endif
 
 " More file types for Ack.vim
 let $ACK_OPTIONS = "--type-set=haml=.haml --type-set=coffee=.coffee --type-set=json=.json"

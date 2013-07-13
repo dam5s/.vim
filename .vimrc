@@ -10,7 +10,7 @@ set expandtab
 set smarttab
 set autoindent
 set nu
-colo default
+colo slate
 syn on
 set hlsearch
 set nowrap
@@ -47,7 +47,7 @@ vnoremap <A-j> :m'>+<CR>gv=gv
 vnoremap <A-k> :m-2<CR>gv=gv
 
 " Nerd Tree
-map <F4> :execute 'NERDTreeToggle ' . getcwd()<CR>
+map <leader>t :execute 'NERDTreeToggle ' . getcwd()<CR>
 
 " Display spaces and tabs, remove end of line spaces
 map <leader>l :set list!<CR>
